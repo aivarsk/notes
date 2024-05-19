@@ -9,6 +9,9 @@ Coupling is a measure of “how much other code will I have to change if I chang
 [The Clean Code Debacle and Rhetoric Tricks - Casey Muratori vs Mr "Uncle Bob" Martin](https://www.youtube.com/watch?v=ZLxazlP7Ppo&ab_channel=gingerBill)
 
 WTF is "Clean Code tm" and how to measure that.
+"Clean" is not a measurable quantity.
+How to measure programmer performance.
+"Clean Code tm" claims to increase programmer performance but how do you know, how do you measure?
 
 [Clean Code Q&A](https://github.com/cmuratori/misc/tree/main)
 
