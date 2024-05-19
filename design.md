@@ -1,6 +1,10 @@
 [Locality of Behaviour](https://htmx.org/essays/locality-of-behaviour/)
 
 The behaviour of a unit of code should be as obvious as possible by looking only at that unit of code.
+These two concepts are key to creating maintainable codebases. Most of so called principles are just reiterations and reinventions of these (and few more) concepts.
+
+Cohesion is basically a measure of how code put in the same code unit is related.
+Coupling is a measure of “how much other code will I have to change if I change X”.
 
 [The Clean Code Debacle and Rhetoric Tricks - Casey Muratori vs Mr "Uncle Bob" Martin](https://www.youtube.com/watch?v=ZLxazlP7Ppo&ab_channel=gingerBill)
 
