@@ -10,3 +10,6 @@ Multicast. How many people know what multicast is? All right, most people. So fo
 
 We run a secondary Matching Engine. But what does he do? What does he listen to? He’s going to come up, and he’s going to listen to, not the ports. Because the order in which the UDP packets are arriving at the passive Matching Engine, they’re totally no guarantee there. So what he actually listens to, is the Matching Engines output. He’s able to, and we’ll see some messages later. He’s able to essentially identify only those messages that the clients submitted. And he’s going to essentially run the identical state machine, and actually the identical code that the primary Matching Engine is running. 
 
+[c24 integration objects](https://dslfin.org/slides/davies-dslfin-yadsl.pdf)
+
+mapping to java objects, encoding all possible values in the least amount of bits
