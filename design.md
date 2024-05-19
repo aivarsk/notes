@@ -12,6 +12,7 @@ WTF is "Clean Code tm" and how to measure that.
 "Clean" is not a measurable quantity.
 How to measure programmer performance.
 "Clean Code tm" claims to increase programmer performance but how do you know, how do you measure?
+CC might not be over-engineered, but it is open-engineered. Does all the code have to be open and ready for modifications and changes? Are we trying to predict the future? How about solving the problem at hand?
 
 [Clean Code Q&A](https://github.com/cmuratori/misc/tree/main)
 
