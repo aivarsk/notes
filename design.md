@@ -51,6 +51,8 @@ void raw_device::Handler(raw_device_request *Packet, raw_device_result *Result)
 
 [Modular Monolith](https://www.youtube.com/watch?v=nuHMlA3iLjY)
 
+- [Monolith First by Martin Fowler](https://martinfowler.com/bliki/MonolithFirst.html)
+
 --
 
 Services, Classes are design ahead of time and then we try to make the code fit.
