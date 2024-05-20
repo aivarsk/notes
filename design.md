@@ -52,6 +52,7 @@ void raw_device::Handler(raw_device_request *Packet, raw_device_result *Result)
 [Modular Monolith](https://www.youtube.com/watch?v=nuHMlA3iLjY)
 
 - [Monolith First by Martin Fowler](https://martinfowler.com/bliki/MonolithFirst.html)
+- microservices should never be the default choice, but rather a last resort (Sam Newman)
 
 --
 
