@@ -16,6 +16,8 @@ CC might not be over-engineered, but it is open-engineered. Does all the code ha
 
 ["Clean Code" is bad. What makes code "maintainable"? ](https://www.youtube.com/watch?v=8ncQrGuunHY)
 
+- "premature abstraction"
+
 [Clean Code Q&A](https://github.com/cmuratori/misc/tree/main)
 
 Every program composed of **o** operations and **t** types has a complexity of **o**x**t**.
