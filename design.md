@@ -14,6 +14,8 @@ How to measure programmer performance.
 "Clean Code tm" claims to increase programmer performance but how do you know, how do you measure?
 CC might not be over-engineered, but it is open-engineered. Does all the code have to be open and ready for modifications and changes? Are we trying to predict the future? How about solving the problem at hand?
 
+["Clean Code" is bad. What makes code "maintainable"? ](https://www.youtube.com/watch?v=8ncQrGuunHY)
+
 [Clean Code Q&A](https://github.com/cmuratori/misc/tree/main)
 
 Every program composed of **o** operations and **t** types has a complexity of **o**x**t**.
