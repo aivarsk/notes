@@ -11,6 +11,8 @@ DRY - some duplication is cheaper than the wrong abstraction.
 
 [Clean Code works through side effects on the object itself](https://www.youtube.com/watch?v=IqHaGd9J42s)
 
+Integration level tests are better for refactoring than unit tests because refactoring changes units
+
 [Locality of Behaviour](https://htmx.org/essays/locality-of-behaviour/)
 
 The behaviour of a unit of code should be as obvious as possible by looking only at that unit of code.
