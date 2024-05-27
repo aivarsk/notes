@@ -7,6 +7,7 @@ Conway's Law says that organizational communication paths [== org structure] are
 
 The so-called "cloud architectures" are not an architecture at all. They are a deployment strategy that removes choices, adds complexity, and locks you into a specific vendor. They often damage (or preclude you from having) an actual architecture. Literally everything you do in the cloud, you could do with multiple threads in a monolith (something I often do before breaking up the monolith into distinct services because it makes building and testing easier). So, the architecture can be deployed on the cloud or in a monolith.
 
+DRY - some duplication is cheaper than the wrong abstraction.
 
 [Locality of Behaviour](https://htmx.org/essays/locality-of-behaviour/)
 
