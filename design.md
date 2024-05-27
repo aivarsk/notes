@@ -1,3 +1,13 @@
+[Is microservices even architecture?](https://x.com/allenholub/status/1794073247497220246)
+
+Conway's Law says that organizational communication paths [== org structure] are mirrored in the systems the org creates. When management organizes the teams, they are effectively designing the software. They know nothing about software. We are turning over our architecture to fools.
+
+
+[Cloud architecture is meaningless, it is the deployment strategy](https://x.com/allenholub/status/1794818184408920238)
+
+The so-called "cloud architectures" are not an architecture at all. They are a deployment strategy that removes choices, adds complexity, and locks you into a specific vendor. They often damage (or preclude you from having) an actual architecture. Literally everything you do in the cloud, you could do with multiple threads in a monolith (something I often do before breaking up the monolith into distinct services because it makes building and testing easier). So, the architecture can be deployed on the cloud or in a monolith.
+
+
 [Locality of Behaviour](https://htmx.org/essays/locality-of-behaviour/)
 
 The behaviour of a unit of code should be as obvious as possible by looking only at that unit of code.
