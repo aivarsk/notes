@@ -73,6 +73,10 @@ void raw_device::Handler(raw_device_request *Packet, raw_device_result *Result)
 - [Monolith First by Martin Fowler](https://martinfowler.com/bliki/MonolithFirst.html)
 - microservices should never be the default choice, but rather a last resort (Sam Newman)
 
+
+https://www.youtube.com/watch?v=MA4UHNUYaqI
+- "premature clean code" before getting all done
+
 --
 
 Services, Classes are design ahead of time and then we try to make the code fit.
