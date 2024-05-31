@@ -33,6 +33,10 @@ CC might not be over-engineered, but it is open-engineered. Does all the code ha
 
 - "premature abstraction"
 
+There is no perfect code, follow 80/20:
+- spend 20% to make 80% good enough, clean or for 80% functionality
+- just accept that the remaining 20% will a couple issues. evaluate if it's worth to fix them
+
 [Clean Code Q&A](https://github.com/cmuratori/misc/tree/main)
 
 Every program composed of **o** operations and **t** types has a complexity of **o**x**t**.
