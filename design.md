@@ -1,3 +1,5 @@
+[API Churn / GraphQL](https://intercoolerjs.org/2016/02/17/api-churn-vs-security)
+
 [Is microservices even architecture?](https://x.com/allenholub/status/1794073247497220246)
 
 Conway's Law says that organizational communication paths [== org structure] are mirrored in the systems the org creates. When management organizes the teams, they are effectively designing the software. They know nothing about software. We are turning over our architecture to fools.
