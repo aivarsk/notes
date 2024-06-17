@@ -41,6 +41,10 @@ There is no perfect code, follow 80/20:
 - spend 20% to make 80% good enough, clean or for 80% functionality
 - just accept that the remaining 20% will a couple issues. evaluate if it's worth to fix them
 
+https://www.pymnts.com/artificial-intelligence-2/2024/apples-ai-rollout-will-likely-stretch-into-next-year/
+
+MACH architecture principles — Microservices, API-first, Cloud-native, and Headless
+
 [Clean Code Q&A](https://github.com/cmuratori/misc/tree/main)
 
 Every program composed of **o** operations and **t** types has a complexity of **o**x**t**.
