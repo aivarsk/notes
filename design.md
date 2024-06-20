@@ -1,3 +1,23 @@
+Why TDD sucks
+
+Discussions about TDD always make me think of Ron Jeffries' attempt to develop a sudoku-solver using TDD.
+That attempt is discussed in Ravi's article: http://ravimohan.blogspot.com/2007/04/learning-from-sudoku-s...
+
+Peter Norvig wrote a sudoku solver, not by using TDD, but using old-fashioned engineering: http://norvig.com/sudoku.html
+
+Ron Jeffries' attempts:
+
+http://xprogramming.com/articles/sudokumusings/
+http://xprogramming.com/articles/oksudoku/
+http://xprogramming.com/articles/sudoku2
+http://xprogramming.com/articles/sudoku4
+http://xprogramming.com/articles/sudoku5
+And, as dessert (Ron is very frank about his failures):
+http://xprogramming.com/articles/roroncemore/
+"This is surely the most ignominious debacle of a project listed on my site, even though others have also not shipped. (Sudoku did not ship and will not. [...])"
+
+TL;DR: it leads to premature architecture/design, refactoring instead of doing the thing, and refactoring based on how the end result feels and looks like.
+
 [API Churn / GraphQL](https://intercoolerjs.org/2016/02/17/api-churn-vs-security)
 
 generic API don't have sufficient information about intent to do proper access control
