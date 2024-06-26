@@ -44,6 +44,7 @@ These two concepts are key to creating maintainable codebases. Most of so called
 
 Cohesion is basically a measure of how code put in the same code unit is related.
 Coupling is a measure of “how much other code will I have to change if I change X”.
+https://wiki.c2.com/?CouplingAndCohesion
 
 [The Clean Code Debacle and Rhetoric Tricks - Casey Muratori vs Mr "Uncle Bob" Martin](https://www.youtube.com/watch?v=ZLxazlP7Ppo&ab_channel=gingerBill)
 
