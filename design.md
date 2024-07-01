@@ -18,6 +18,10 @@ http://xprogramming.com/articles/roroncemore/
 
 TL;DR: it leads to premature architecture/design, refactoring instead of doing the thing, and refactoring based on how the end result feels and looks like.
 
+[Some good ideas](https://evanhahn.com/programming-beliefs-as-of-july-2024/)
+
+Like avoiding dogmatic TDD and other people
+
 [API Churn / GraphQL](https://intercoolerjs.org/2016/02/17/api-churn-vs-security)
 
 generic API don't have sufficient information about intent to do proper access control
