@@ -1,3 +1,9 @@
+https://www.sivalabs.in/tomato-architecture-pragmatic-approach-to-software-design/#google_vignette
+
+One fine day, I realized that many people simply parrot what they read without understanding it.
+
+Litmus Test: Ask them to explain something without telling “Martin Fowler / Uncle Bob/ Eric Evans said so”.
+
 https://db.cs.cmu.edu/papers/2024/whatgoesaround-sigmodrec2024.pdf
 There is possibly a (small) market for private blockchain DBMSs. Amazon’s Quantum Ledger Database
 (QLDB) released in 2018 [65] provides the same immutable and verifiable update guarantees as a blockchain,
