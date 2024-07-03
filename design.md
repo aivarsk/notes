@@ -1,4 +1,9 @@
 https://db.cs.cmu.edu/papers/2024/whatgoesaround-sigmodrec2024.pdf
+There is possibly a (small) market for private blockchain DBMSs. Amazon’s Quantum Ledger Database
+(QLDB) released in 2018 [65] provides the same immutable and verifiable update guarantees as a blockchain,
+but it is not decentralized (i.e., no BFT commit protocol).
+Amazon built QLDB after finding no compelling use
+case for a fully decentralized blockchain DBMS [108].
 
 
 Why TDD sucks
