@@ -1,3 +1,6 @@
+https://db.cs.cmu.edu/papers/2024/whatgoesaround-sigmodrec2024.pdf
+
+
 Why TDD sucks
 
 Discussions about TDD always make me think of Ron Jeffries' attempt to develop a sudoku-solver using TDD.
