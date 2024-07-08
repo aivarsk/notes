@@ -32,6 +32,10 @@ http://xprogramming.com/articles/roroncemore/
 
 TL;DR: it leads to premature architecture/design, refactoring instead of doing the thing, and refactoring based on how the end result feels and looks like.
 
+[TDD, Where Did It All Go Wrong](https://www.youtube.com/clip/UgkxlP31JJk6EGHLoIcKpmbNz__5zP5Jx0pd)
+
+Current TDD practices with extensive mocking test the implementation not the behaviour of the code and make refactoring hard,
+
 [Some good ideas](https://evanhahn.com/programming-beliefs-as-of-july-2024/)
 
 Like avoiding dogmatic TDD and other people
