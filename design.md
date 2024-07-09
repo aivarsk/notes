@@ -35,6 +35,7 @@ TL;DR: it leads to premature architecture/design, refactoring instead of doing t
 [TDD, Where Did It All Go Wrong](https://www.youtube.com/clip/UgkxlP31JJk6EGHLoIcKpmbNz__5zP5Jx0pd)
 
 Current TDD practices with extensive mocking test the implementation not the behaviour of the code and make refactoring hard,
+This is even better: https://www.youtube.com/watch?v=IN9lftH0cJc
 
 [Some good ideas](https://evanhahn.com/programming-beliefs-as-of-july-2024/)
 
