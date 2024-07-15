@@ -50,8 +50,19 @@ liskov is about subcassing (Foo Fooish). If you have to check type, you failed a
 
 if testing seems hard - examine your design. But some of the "clean code" requires so much stuff to execute
 
+Is it DRY?
+
+Does it have one responsibility
+Does everything in it change at the same rate - THIS IS GOLD
+Does it depend on things that change less often than it does
+
 
 Sandi: only mock classes I own, don't mock/stub the object under test :( How about mocking as the last resort?
 
 
 SDO are the remaining ones
+
+
+LOVE the Sandi approach of writing the code and refactoring. Look at the code, see what would be the best structure for the code. Much of the SOLID happens ahead of time with putting classes and interfaces and then trying to implement that. I think the same happens with design patterns
+
+Scale of likelihood of change
