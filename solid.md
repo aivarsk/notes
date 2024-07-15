@@ -27,9 +27,29 @@ Right away, OLID suggests there is a base and derived class or an interface and 
  SOLID during initial implementation version long-time support
  https://martinfowler.com/bliki/DesignStaminaHypothesis.html
 
-
+https://wiki.c2.com/?CouplingAndCohesion Low coupling, High cohesion
 
 https://web.archive.org/web/20150906155800/http://www.objectmentor.com/resources/articles/Principles_and_Patterns.pdf
 
 GORUCO 2009 - SOLID Object-Oriented Design by Sandi Metz
 https://www.youtube.com/watch?v=v-2yFMzxqwU
+
+
+if you refer to something -> you depend on it
+when the things you depend on change -> you must change OR not - depends on the kind of change and the language (C, C++ ABI)
+
+https://www.amazon.com/Growing-Object-Oriented-Software-Guided-Tests/dp/0321503627
+
+loosely coupled (Sandi says this is DI but it is not)
+highly cohesive
+easily composable
+context independent
+
+interface segregation is for C++ and compile-time dependencies, quit talking about it. My background: just try to rebuild with ccache and don't be too smart about it (main binary vs libs, templates, compile time flags, etc)
+liskov is about subcassing (Foo Fooish). If you have to check type, you failed at this. We do not do subclasses
+
+
+Sandi: only mock classes I own, don't mock/stub the object under test :( How about mocking as the last resort?
+
+
+SDO are the remaining ones
