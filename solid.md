@@ -48,6 +48,8 @@ context independent
 interface segregation is for C++ and compile-time dependencies, quit talking about it. My background: just try to rebuild with ccache and don't be too smart about it (main binary vs libs, templates, compile time flags, etc)
 liskov is about subcassing (Foo Fooish). If you have to check type, you failed at this. We do not do subclasses
 
+if testing seems hard - examine your design. But some of the "clean code" requires so much stuff to execute
+
 
 Sandi: only mock classes I own, don't mock/stub the object under test :( How about mocking as the last resort?
 
