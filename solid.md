@@ -174,3 +174,5 @@ https://www.youtube.com/watch?v=8ncQrGuunHY
 
 A recent study found that more than 90% of catastrophic failures in distributed data-intensive systembs were caused by incorrect error handling
 
+
+https://www.youtube.com/watch?v=TT_RLWmIsbY LoB and breaking the rules
