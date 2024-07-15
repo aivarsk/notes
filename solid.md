@@ -63,9 +63,48 @@ How about implementing feature or part of on it's own and then checking which co
 
 L
 
+FUNCTIONS THAT USE POINTERS OR REFERENCES TO BASE
+CLASSES MUST BE ABLE TO USE OBJECTS OF DERIVED CLASSES
+WITHOUT KNOWING IT.
+The above is a paraphrase of the Liskov Substitution Principle (LSP). Barbara Liskov first
+wrote it as follows nearly 8 years ago1
+:
+What is wanted here is something like the following substitution property: If
+for each object o1 of type S there is an object o2 of type T such that for all
+programs P defined in terms of T, the behavior of P is unchanged when o1 is
+substituted for o2 then S is a subtype of T.
+
 I
 
+CLIENTS SHOULD NOT BE FORCED TO DEPEND UPON INTERFACES
+THAT THEY DO NOT USE.
+When clients are forced to depend upon interfaces that they don’t use, then those clients
+are subject to changes to those interfaces. This results in an inadvertent coupling between
+all the clients. Said another way, when a client depends upon a class that contains interfaces that the client does not use, but that other clients do use, then that client will be
+affected by the changes that those other clients force upon the class. We would like to
+avoid such couplings where possible, and so we want to separate the interfaces where possible.
+
+See S
+
+
 D
+
+https://web.archive.org/web/20150905081103/http://www.objectmentor.com/resources/articles/dip.pdf
+
+
+The Dependency Inversion Principle
+A. HIGH LEVEL MODULES SHOULD NOT DEPEND UPON LOW LEVEL MODULES. BOTH SHOULD DEPEND UPON ABSTRACTIONS.
+B. ABSTRACTIONS SHOULD NOT DEPEND UPON DETAILS. DETAILS SHOULD DEPEND UPON ABSTRACTIONS.
+One might question why I use the word “inversion”. Frankly, it is because more traditional
+software development methods, such as Structured Analysis and Design, tend to create
+software structures in which high level modules depend upon low level modules, and in
+which abstractions depend upon details. Indeed one of the goals of these methods is to
+define the subprogram hierarchy that describes how the high level modules make calls to
+the low level modules. Figure 1 is a good example of such a hierarchy. Thus, the dependency structure of a well designed object oriented program is “inverted” with respect to
+the dependency structure that normally results from traditional procedural methods.
+
+
+Why not say (functional style) : just pass extra parameter in. Looks like OOP thingie.
 
 
 Right away, OLID suggests there is a base and derived class or an interface and implementation class. 
