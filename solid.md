@@ -37,6 +37,7 @@ public char recv();
 }
 ```
 
+is SFTP part of FTP with a "SSH part" or is it a new subclass?
 
 O
 
@@ -56,7 +57,9 @@ modules by adding new code, not by changing old code that already works.
 
 But changes happen because the old code does not work.
 
-Assumes extension by inheritance
+Assumes extension by inheritance. Assumes the extension points will be sufficient. Assumes extensions will be aligned, not perpendicular or something completely different.
+
+How about implementing feature or part of on it's own and then checking which code can be reused.
 
 L
 
