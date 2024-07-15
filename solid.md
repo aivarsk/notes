@@ -2,6 +2,7 @@ https://en.wikipedia.org/wiki/SOLID
 
 For OOP but why OOP in the first place? Why not functional, procedural or a mix of all.
 
+## Definition
 
 Principles
 - Single-responsibility principle: "There should never be more than one reason for a class to change."[2] In other words, every class should have only one responsibility.[3]
@@ -10,8 +11,45 @@ Principles
 - Interface segregation principle: "Clients should not be forced to depend upon interfaces that they do not use."[6][7]
 - Dependency inversion principle: "Depend upon abstractions, [not] concretes."[8][7]
 
+### Sources
 
-Right away, OLID suggests there is a base and derived class or an interface and implementation class. Inheritance is overused and bad in most cases (not all), composition is preferred. Creating an interface to break dependency on a single implementation falls in one of these:
+S
+
+https://web.archive.org/web/20150202200348/http://www.objectmentor.com/resources/articles/srp.pdf
+This principle was described in the work of Tom DeMarco1 and Meilir Page-Jones2
+. They
+called it cohesion. As we’ll see in Chapter 21, we have a more specific definition of cohesion at the package level. However, at the class level the definition is similar.
+
+What is a Responsibility?
+In the context of the Single Responsibility Principle (SRP) we define a responsibility to be
+“a reason for change.”   But this is guessing the future requirements: proactive not reactive.
+When to stop separating: connect/close + send/recv or connect/close + send + recv ??
+
+
+```
+Modem.java -- SRP Violation
+interface Modem
+{
+public void dial(String pno);
+public void hangup();
+public void send(char c);
+public char recv();
+}
+```
+
+
+O
+
+L
+
+I
+
+D
+
+
+Right away, OLID suggests there is a base and derived class or an interface and implementation class. 
+
+Inheritance is overused and bad in most cases (not all), composition is preferred. Creating an interface to break dependency on a single implementation falls in one of these:
 - you either duplicate the exact API from implementation to interface making the interface not generic enough for possible future implementations or (most likely) you will not have another implementation making that interface just another boilerplate layer.
 - you try to make the interface generic enough but are doing a premature abstraction and predicting the future for no good reason
 - you DO have multiple implementations right away. Which is when you do the OLI. Thing to consider: maybe "implementation inversion" leads to cleaner code:
