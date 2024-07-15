@@ -19,8 +19,13 @@ Right away, OLID suggests there is a base and derived class or an interface and 
 - do: different classes call the same utility function with parameters
 - meaning: do L somewhere at a higher level, do not push it all the way down
 
+- rule of thumb: you can't get the interface/base class right until you have 2-3 derived classes.
 - maybe a matrix with 1, n implementations and XXX on other axis
- 
+
+
+
+ SOLID during initial implementation version long-time support
+ https://martinfowler.com/bliki/DesignStaminaHypothesis.html
 
 
 
