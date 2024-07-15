@@ -164,3 +164,13 @@ SDO are the remaining ones
 LOVE the Sandi approach of writing the code and refactoring. Look at the code, see what would be the best structure for the code. Much of the SOLID happens ahead of time with putting classes and interfaces and then trying to implement that. I think the same happens with design patterns
 
 Scale of likelihood of change
+
+classitis small classes
+
+
+
+https://www.youtube.com/watch?v=4xqkI953K6Y Unknown unknowns
+https://www.youtube.com/watch?v=8ncQrGuunHY
+
+A recent study found that more than 90% of catastrophic failures in distributed data-intensive systembs were caused by incorrect error handling
+
