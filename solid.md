@@ -172,10 +172,16 @@ classitis small classes
 https://www.youtube.com/watch?v=4xqkI953K6Y Unknown unknowns
 https://www.youtube.com/watch?v=8ncQrGuunHY
 
-A recent study found that more than 90% of catastrophic failures in distributed data-intensive systembs were caused by incorrect error handling
+A recent study found that more than 90% of catastrophic failures in distributed data-intensive systems were caused by incorrect error handling
 
 
 https://www.youtube.com/watch?v=TT_RLWmIsbY LoB and breaking the rules
 
 
 Coupling just from the API point of view, not from the functional/feature view
+
+
+https://stackoverflow.com/questions/14000762/what-does-low-in-coupling-and-high-in-cohesion-mean
+
+
+SOLID is very one-sided, it pushed "low coupling". Low coupling, high cohesion is a more balanced way: single responsibility can go on indefinitely but the cohesion part says to keep similar and related things together (Locality of Behavior)
