@@ -176,3 +176,6 @@ A recent study found that more than 90% of catastrophic failures in distributed 
 
 
 https://www.youtube.com/watch?v=TT_RLWmIsbY LoB and breaking the rules
+
+
+Coupling just from the API point of view, not from the functional/feature view
