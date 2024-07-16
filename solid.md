@@ -208,3 +208,17 @@ SOLID is very one-sided, it pushed "low coupling". Low coupling, high cohesion i
 
 
 We need "MongoDB is web scale"  for SOLID
+
+
+https://softwareengineering.stackexchange.com/questions/447532/when-to-not-use-solid-principles
+
+
+Principle	Purpose	Pitfalls	Domain Specific Notes
+Single responsibility	Makes changes isolated, easy to test and reason about.	Hyper-decomposition. You probably don't need a full class to set a page/screen title.	This is your homework.
+Open–closed	Help prevent new features from breaking old ones.	"Closing" a module you own, maintain, and can safely extend can lead to unnecessary complexity, inheritance chains, LOC, and added binary/bundle size.	This is your homework.
+Liskov substitution	Helps prevent code that looks correct from being incorrect.	Over-reliance on LSP as a signal for correctness.	This is your homework.
+Interface segregation	Allows variable/function to accept to more types; Reduces boilerplate for using functions.	Requiring the smallest possible interface may conflict with intent of LSP.	This is your homework.
+Dependency inversion	Makes more of the system reusable, swappable, and testable.	Over-inversion. Creating and "inverting" abstractions with no gain, adding complexity, making code harder to read and reason about.	This is your homework.
+Bonus: Don't Repeat Yourself	Helps prevent inconsistent application of business rules throughout the system.	Over-application: Code that looks the same might serve different purposes and behavior that should diverge become difficult to change.	This is your homework.
+
+SoC (Separation of Concerns; probably Dijkstra in 1974) was there long before SRP
