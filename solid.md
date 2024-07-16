@@ -184,4 +184,24 @@ Coupling just from the API point of view, not from the functional/feature view
 https://stackoverflow.com/questions/14000762/what-does-low-in-coupling-and-high-in-cohesion-mean
 
 
+In one of your conference, you explained the benefit to DEFER decisions about technical details when building a software (web interfaces, database etc...): 
+I don't know if you ever read this book: http://www.amazon.com/Growing-Object-Oriented-Software-Guided-Tests/dp/0321503627  but it seems to promote exactly the contrary. One of its idea is:
+
+_ Start by writing a Walking Skeleton with an end-to-end focus.  "We've seen too much projects failing because integration of components was not define earlier in the project phase".
+Thus, in this case, an architect would firstly focus on: What do we think TECHNICALLY we need to achieve our goal.. "hummm  Swing, ok ..  MYSQL humm okkk that seems good". The very opposite way of yours :)
+
+1) Walking skeleton predates GOOS. Cockburn wrote about it last century http://alistair.cockburn.us/Walking+skeleton.
+
+2) When people speak about deferring decisions they're usually concerned with avoiding premature commitment. Cockburn specifically says that the Walking Skeleton "need not use the final architecture, but it should link together the main architectural components. The architecture and the functionality can then evolve in parallel."
+
+3) In an old article (http://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf), Martin Fowler says "one of an architect’s most important tasks is to remove architecture by finding ways to eliminate irreversibility in software designs." He's talking about making design decisions that protect us from making hard-to-change architectural commitments. Too much flexibility and the system becomes over-complex, too little and you're at the mercy of every change (whether due to your product owner or a changing 3rd party component)
+
+4) BDD has never recommended driving development through the UI. BDD encourages us to focus on the behaviour of the system. Exercise the system at the layer appropriate for the behaviour that you are developing. It's worth keeping the Testing Pyramid in mind, and probably the Testing Iceberg too (http://claysnow.co.uk/?p=175315341). And always remember that the GUI itself is just another component.
+
+5) I don't agree with Uncle Bob that outside-in and inside-out approaches result in profoundly different test structures. Specifically I have seen no evidence that outside-in tests necessarily lead to more mocks, or to mocks/doubles that rely on mechanism rather than results.
+
+6) More contentiously, I think that we're all working outside-in anyway. TDD by it's very definition works from the outside of a component, driving its design and implementation through an emerging public API. Further, if there's no clear link from your user's requirements through to the code you're implementing something is going very wrong, so we're all working from the outside after all.
+
+
+
 SOLID is very one-sided, it pushed "low coupling". Low coupling, high cohesion is a more balanced way: single responsibility can go on indefinitely but the cohesion part says to keep similar and related things together (Locality of Behavior)
