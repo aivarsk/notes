@@ -205,3 +205,6 @@ Thus, in this case, an architect would firstly focus on: What do we think TECHNI
 
 
 SOLID is very one-sided, it pushed "low coupling". Low coupling, high cohesion is a more balanced way: single responsibility can go on indefinitely but the cohesion part says to keep similar and related things together (Locality of Behavior)
+
+
+We need "MongoDB is web scale"  for SOLID
