@@ -25,7 +25,7 @@ In the context of the Single Responsibility Principle (SRP) we define a responsi
 “a reason for change.”   But this is guessing the future requirements: proactive not reactive.
 When to stop separating: connect/close + send/recv or connect/close + send + recv ??
 
-
+https://mrpicky.dev/a-brief-history-of-coupling-and-cohesion/
 ```
 Modem.java -- SRP Violation
 interface Modem
