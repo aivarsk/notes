@@ -1,4 +1,6 @@
 essential coupling makes it a system, accidental vs 
+building a 3d model out of 2d pieces
+the structural dimension
 
 https://www.youtube.com/watch?v=8JTRDyd7Jek
 
