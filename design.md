@@ -1,4 +1,4 @@
-
+essential coupling makes it a system, accidental vs 
 
 https://www.youtube.com/watch?v=8JTRDyd7Jek
 
