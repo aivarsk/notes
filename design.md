@@ -1,3 +1,9 @@
+https://www.youtube.com/watch?v=8JTRDyd7Jek
+
+https://arxiv.org/abs/1711.05082
+A Comparative Case Study on the Impact of Test-Driven Development on Program Design and Test Coverage
+Maria Siniaalto, Pekka Abrahamsson
+
 https://www.sivalabs.in/tomato-architecture-pragmatic-approach-to-software-design/#google_vignette
 
 One fine day, I realized that many people simply parrot what they read without understanding it.
