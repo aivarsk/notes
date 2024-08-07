@@ -1,3 +1,6 @@
+
+preemtive layers of abstractions
+
 essential coupling makes it a system, accidental vs 
 building a 3d model out of 2d pieces
 the structural dimension
