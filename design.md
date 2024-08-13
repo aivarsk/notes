@@ -1,3 +1,4 @@
+start with a database https://www.youtube.com/watch?v=xh-iMBOXl6M
 
 preemtive layers of abstractions
 
